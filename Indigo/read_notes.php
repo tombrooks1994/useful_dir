@@ -8,7 +8,7 @@
 
 require_once("notes_class.php");
 $notes = new notes_class();
-$conn = new mysqli ("localhost", "tom", "notes", "notes");
+$conn = new mysqli ("", "", "", "");
 $query = "SELECT id, title, notes, date FROM notes_data";
 $sql = $conn->prepare($query);
 $sql->execute();
