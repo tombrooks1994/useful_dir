@@ -9,7 +9,7 @@
 require_once("notes_class.php");
 
 if (isset($_POST['notes_text'])) {
-    $conn = new mysqli ("localhost", "tom", "notes", "notes");
+    $conn = new mysqli ("", "", "", "");
     $written_note = $_POST['notes_text'];
     $notes_title = $_POST['title'];
     $date = date("Y-m-d");
