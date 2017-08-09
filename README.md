@@ -9,3 +9,7 @@ The first useful directory commited is Indigo. This contains files which are for
 ### Checkout the Indigo Project
 
 * [Indigo](https://github.com/tombrooks1994/useful_dir/tree/master/Indigo)
+
+### Want to have your day cheered up? Check out the pun generator 
+
+* [Pun Generator](https://github.com/tombrooks1994/useful_dir/tree/master/Indigo/curl.php)
